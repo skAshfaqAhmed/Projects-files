@@ -1,0 +1,92 @@
+/* Reset some default styles */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap'); */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 86px;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid rgb(238, 238, 238);
+    background-color: white;
+    align-items: center;
+}
+
+/* Mobile-first styles */
+.header-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header-left {
+    margin-left: 32px;
+    margin-right: 100px;
+}
+
+.header-location {
+    margin-right: 40px;
+}
+
+.header-location-tittle {
+    color: black;
+    font-weight: 800;
+    margin-bottom: 6px;
+    font-size: 18px;
+}
+
+.header-location-desc {
+    font-size: 13px;
+    color: black;
+    font-weight: 400;
+}
+
+.header-search {
+    width: 832px;
+    height: 46px;
+    cursor: text;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 0px 12px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-right: 70px;
+}
+
+.header-search svg {
+    width: 20px;
+    font-weight: 600;
+}
+/*
+/* .header-location, .header-search, .header-login, .header-right {
+    margin: 10px;
+}
+
+.header-location-title, .header-location-desc {
+    text-align: center;
+}
+
+.header-search {
+    display: flex;
+    align-items: center;
+}
+
+.header-search {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.main-container {
+    max-width: 100%;
+    padding: 10px;
+}
