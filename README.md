@@ -1,3 +1,3 @@
 #JavaScript-Projects.
-<br><hr>
+<br>
 Projects made using HTML, CSS and JavaScript
